@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Second Web Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="navbar">
+        <img id="logo" src="data:image/png;base64,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" alt="Jovian Logo">
+    </div>
+
+    <img id="banner" src="banner.jpg" alt="Banner" height="240">
+    
+    <h1>About Jovian</h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                At Jovian, we're on a mission to build the world's most highly reputed
+                technical university, and we're building it completely online. We offer
+                several beginner friendly courses that are taken by 300,000+ registered
+                users.
+            </p>
+            <p>
+                We also offer 2 industry-focused bootcamps:
+                <ol>
+                        <li>
+                            <a href="https://www.jovian.com/full-stack-developer-bootcamp" target="_blank">
+                            Jovian Full Stack Developer Bootcamp</a>
+                        </li>
+                        <li>
+                            <a href="https://www.jovian.com/data-science-bootcamp" target="_blank">
+                            Jovian Data Science Bootcamp</a>
+                        </li>
+                </ol>
+            </p>
+        </div>
+
+        <div id="team"> 
+            <img id="teamImage" src="team.jpg" alt="Team">
+        </div>
+    </div>
+
+        
+    
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobsTable">
+            <tr class="jobsHeaderRow">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobsHeaderRow">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobsDataRow">
+                <td>Frontend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>₹12,00,000</td>
+                <td>Mar 3, 2023</td>
+            </tr>
+            <tr class="jobsDataRow">
+                <td>Full Stack Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>₹15,00,000</td>
+                <td>Feb 1, 2023</td>
+            </tr>
+            <tr class="jobsDataRow">
+                <td>Data Scientist</td>
+                <td>San Francisco, CA</td>
+                <td>USA</td>
+                <td>$175,000</td>
+                <td>Dev 22, 2022</td>
+            </tr>
+            <tr class="jobsDataRow">
+                <td>ML Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>$80,000</td>
+                <td>Sep 19, 2022</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form id="applicationForm" action="">
+            <div class="formGroup">
+                <label for="name">Full name</label><br>
+                <input type="text" id="name" name="Full name" required placeholder="John Doe">
+
+            </div>
+            <div class="formGroup">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email Address" required placeholder="jdoe@example.com">
+            </div>
+            <div class="formGroup">
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="Phone" required placeholder="(555) 555-5555">
+            </div>
+            <div class="formGroup">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" name="dob" id="dob" required>
+            </div>
+            <div class="formGroup">
+                <label for="position">Position Applied for</label><br>
+                <select name="Position Applied" id="position" required>
+                    <option value="">Select Position</option>
+                    <option value="frontend developer">Frontend Developer</option>
+                    <option value="full stack developer">Full Stack Developer</option>
+                    <option value="data scientist">Data Scientist</option>
+                    <option value="ml engineer">ML Engineer</option>
+                </select>
+            </div>
+
+            <div class="formGroup">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="Resume" required> 
+            </div>
+
+            <div class="formGroup">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea name="Coverletter" id="coverletter" rows="5" placeholder="Explain what makes you suitable for the job..."></textarea>
+            </div>
+
+            <div class="formGroup">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+            
+            <div class="formGroup">
+                <input type="submit" value="Submit Application">
+            </div>
+
+        </form>
+    </div>
+    
+
+    <div id="footer">
+        <ul id="footerLinks">
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                Courses</a>
+            </li>
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                Programs</a>
+            </li>
+            <li>
+                <a href="https://youtube.com/@jovianhq" target="_blank">
+                YouTube</a>
+            </li>
+        </ul>
+        <span class="copyright">© 2023, Jovian</span>
+    </div>
+
+  </body>
+
+</html>
